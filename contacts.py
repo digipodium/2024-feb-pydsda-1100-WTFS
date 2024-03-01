@@ -8,7 +8,7 @@ while True:
     # closing the program
     if len(name) == 0:
         print("👋 Bye")
-        break
+        
     # searching the contact
     if name in contacts:
         print(f"📞 {name} : {contacts[name]}")
